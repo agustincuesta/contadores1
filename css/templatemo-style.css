@@ -5,19 +5,19 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: #303030;
- 		color: #ffffff;
+ 		background: rgb(47, 79, 79);
+ 		color: #050505;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
 	
 a {
-	color: #47C6F8;
+	color: rgb(240, 230, 140);
 }
 	
 a:hover {
-	color: #0FF;
+	color: rgb(240, 230, 140);
 }
 
 /* start h2 */
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: rgb(173, 255, 47);
 		font-weight: bold;
 	}
 /* end h2 */
@@ -67,7 +67,7 @@ h2 span
   		-webkit-align-items: center;
   		    -ms-flex-align: center;
   		        align-items: center;
-  		background: none repeat scroll 0 0 #ffffff;
+  		background: none repeat scroll 0 0 #011110;
 	}
 .sk-spinner-wave.sk-spinner 
 	{
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color:rgb(173, 255, 47);
 	}
 header span
 	{
@@ -145,7 +145,7 @@ header span
 	}
 header a
 	{
-		color: #999;
+		color: rgb(173, 255, 47);
 		font-weight: 600;
 	}
 header .social-icon
@@ -165,7 +165,7 @@ header .social-icon li a
 /* start nagivation */
 .navbar-default
 	{
-		background: #fff;
+		background: rgb(15, 15, 15);
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: rgb(255, 69, 0); 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -204,7 +204,7 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background: url('../images/home-bg.jpg') no-repeat;
+		background: url('../images/home-bg.gif') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
@@ -218,14 +218,14 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #28a7e9;
+		color: #414142;
 		font-weight: bold;
 	}
 #home .btn
 	{
 		background: transparent;
 		border-radius: 2px;
-		color: #fff;
+		color: rgb(8, 3, 3);
 		font-size: 16px;
 		font-weight: bold;
 		margin-top: 20px;
@@ -253,7 +253,7 @@ header .social-icon li a
 	}
 #about .media-heading-wrapper .fa
 	{
-		border: 1px solid #fff;
+		border: 1px solid rgb(7, 20, 197);
 		border-radius: 2px;
 		color: #fff;
 		font-size: 24px;
@@ -319,7 +319,7 @@ header .social-icon li a
 	}
 #service .fa
 	{
-		border: 1px solid #fff;
+		border: 1px solid rgb(7, 20, 197); 
 		border-radius: 2px;
 		color: #fff;
 		font-size: 50px;
@@ -396,15 +396,15 @@ header .social-icon li a
 /* start contact */
 #contact
 	{
-		background: #202020;
+		background: rgb(189, 183, 107);
 	}
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid 	rgb(70, 31, 3);
 		border-radius: 2px;
 		box-shadow: none;
-		color: #fff;
+		color: rgb(255, 255, 255);
 		margin-top: 6px;
 		margin-bottom: 16px;
 	}
@@ -418,7 +418,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: rgb(70, 31, 3);
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -445,7 +445,7 @@ header .social-icon li a
 	}
 #contact address .fa
 	{
-		border: 1px solid #fff;
+		border: 1px solid rgb(0, 0, 205);
 		border-radius: 2px;
 		width: 40px;
 		height: 40px;
@@ -486,9 +486,9 @@ header .social-icon li a
 	}
 .social-icon li a
 	{
-		border: 1px solid #fff;
+		border: 1px solid rgb(0, 0, 205);
 		border-radius: 2px;
-		color: #fff;
+		color: rgb(173, 255, 47);
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
